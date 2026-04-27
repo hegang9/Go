@@ -18,7 +18,7 @@
 * **用法解析**：
   * `t.Unix()`：获取 `t time.Time` 对象的**秒级**时间戳。
   * `t.UnixMilli()` (Go 1.17+)：获取**毫秒级**时间戳。
-  * `time.Unix(sec int64, nsec int64)`：将时间戳转换回 `time.Time` 对象。
+  * `time.U  nix(sec int64, nsec int64)`：将时间戳转换回 `time.Time` 对象。
 * **适用场景**：记录数据库的创建时间和更新时间、将时间传递给前端。
 
 ### 3. `t.Format` / `time.Parse`
